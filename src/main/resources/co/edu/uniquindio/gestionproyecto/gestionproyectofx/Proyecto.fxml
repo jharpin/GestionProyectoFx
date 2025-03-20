@@ -10,9 +10,10 @@
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.gestionproyecto.gestionproyectofx.control.ProyectoController">
    <children>
       <Label layoutX="283.0" layoutY="14.0" text="Gestion Proyecto " />
-      <Label layoutX="55.0" layoutY="68.0" text="Nombre Proyecto" />
-      <Label layoutX="55.0" layoutY="113.0" text="ID Proyecto" />
-      <TextField layoutX="173.0" layoutY="63.0" />
-      <TextField layoutX="140.0" layoutY="108.0" />
+      <Label layoutX="37.0" layoutY="53.0" text="Nombre Proyecto" />
+      <Label layoutX="52.0" layoutY="98.0" text="Ide  Proyecto" />
+      <TextField id="txtNombreProyecto" layoutX="155.0" layoutY="53.0" />
+      <TextField id="txtIdentificacionProyecto" layoutX="155.0" layoutY="93.0" />
+      <Button id="ButtonProyecto" layoutX="188.0" layoutY="140.0" mnemonicParsing="false" text="Crear Proyecto " />
    </children>
 </AnchorPane>
