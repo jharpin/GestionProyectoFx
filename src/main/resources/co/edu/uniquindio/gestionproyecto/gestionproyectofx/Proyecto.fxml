@@ -6,9 +6,13 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="co.edu.uniquindio.gestionproyecto.gestionproyectofx.control.ProyectoController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.gestionproyecto.gestionproyectofx.control.ProyectoController">
+   <children>
+      <Label layoutX="283.0" layoutY="14.0" text="Gestion Proyecto " />
+      <Label layoutX="55.0" layoutY="68.0" text="Nombre Proyecto" />
+      <Label layoutX="55.0" layoutY="113.0" text="ID Proyecto" />
+      <TextField layoutX="173.0" layoutY="63.0" />
+      <TextField layoutX="140.0" layoutY="108.0" />
+   </children>
 </AnchorPane>
